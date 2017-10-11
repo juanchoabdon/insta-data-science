@@ -2,7 +2,7 @@
 from instapy import InstaPy
 
 # if you don't provide arguments, the script will look for INSTA_USER and INSTA_PW in the environment
-session = InstaPy(username='murte.daniel', password='@f5XI8PCV')
+session = InstaPy(username='juanchoabdon', password='juanchoabdon1aA')
 
 
 # logs you in with the specified username and password
@@ -84,7 +84,7 @@ session.like_by_tags(['#tech','#entrepreneurship','#programming'], amount=100)
 # The amount is for each account, in this case 30 users will be followed
 # If random is false it will pick in a top-down fashion
 # default sleep_delay=600 (10min) for every 10 user following, in this case sleep for 60 seconds
-session.follow_user_followers(['freddiervega'], amount=500, random=False, sleep_delay= 01)
+session.follow_user_followers(['cvandercito'], amount=500, random=False, sleep_delay= 01)
 # For 50% of the 30 newly followed, move to their profile
 # and randomly choose 5 pictures to be liked.
 # Take into account the other set options like the comment rate
